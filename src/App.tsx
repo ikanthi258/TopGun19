@@ -14,6 +14,7 @@ import DetectionPopupPage from './pages/04_DetectionPopupPage';
 import ImageViewerPage from './pages/05_ImageViewerPage';
 import MapPage from './pages/06_MapPage';
 import ApiSocketPage from './pages/07_ApiSocketPage';
+import DashboardPage from './pages/08_DashboardPage';
 
 // สร้าง Material-UI theme
 const theme = createTheme({
@@ -53,6 +54,7 @@ function App() {
             <Route path="/05-image-viewer" element={<ImageViewerPage />} />
             <Route path="/06-map" element={<MapPage />} />
             <Route path="/07-api-socket" element={<ApiSocketPage />} />
+            <Route path="/08-dashboard" element={<DashboardPage/>} />
           </Routes>
         </BrowserRouter>
       </ThemeProvider>
