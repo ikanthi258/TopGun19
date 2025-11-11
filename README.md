@@ -94,7 +94,7 @@ VITE_MAPBOX_TOKEN=your-mapbox-token
 ## 🏗️ โครงสร้างโปรเจค
 
 ```
-tesa-ui/
+TopGun19/
 ├── src/
 │   ├── api/              # API calls
 │   │   ├── axios.ts      # Axios instance
@@ -119,6 +119,7 @@ tesa-ui/
 │   │   ├── 05_ImageViewerPage.tsx
 │   │   ├── 06_MapPage.tsx
 │   │   ├── 07_ApiSocketPage.tsx
+|   |   |__ 08_DashboardPage.tsx
 │   │
 │   ├── types/            # TypeScript types
 │   │   └── detection.ts
